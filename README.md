@@ -23,7 +23,6 @@
 - Classes e Objetos;
 - Cookie e Session;
 - Encapsulamento;
-- Herança;
 - Interface;
 - Identificação e Tratamento de Exceções;
 - Estrutura de Dados e Implementações;
