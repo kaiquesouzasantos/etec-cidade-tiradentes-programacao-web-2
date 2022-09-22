@@ -13,25 +13,25 @@
 #
 ### CONTEUDO ABORDADO
 
+- Tipos de Dados Primitivos;
+- *Operadores*: Aritmeticos, Relacionais, Atribuição e Lógicos;
+- *Estrutura de Decisão*: IF, ELSE, ELSE IF, SWITCH;
+- *Estrutura de Repetição*: WHILE, DO WHILE, FOR;
+- Vetores e Matrizes;
+- Metodos;
+- Formularios e Requisições;
 - Classes e Objetos;
+- Cookie e Session;
 - Encapsulamento;
-- Sobrecarga;
 - Herança;
-- Sobreescrita;
-- Polimorfismo; 
-- Abstração;
 - Interface;
-- Enum;
 - Identificação e Tratamento de Exceções;
-- GUI (Swing e JOptionPane);
 - Estrutura de Dados e Implementações;
-- JDBC e JPA;
-- Leitura e Manipulação de Arquivos;
-- Stream, Optional, Lambda e Generics;
-- Date, Time e Calendar.
+- PDO;
+- Boas Praticas e Clean Code.
 
 #
-### TECNOLOGIA
+### TECNOLOGIAS
 - [HTML]()
 - [CSS]()
 - [JAVASCRIPT]()
