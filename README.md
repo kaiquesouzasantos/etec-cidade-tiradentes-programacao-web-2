@@ -13,21 +13,22 @@
 #
 ### CONTEUDO ABORDADO
 
-- Tipos de Dados Primitivos;
-- *Operadores*: Aritmeticos, Relacionais, Atribuição e Lógicos;
-- *Estrutura de Decisão*: IF, ELSE, ELSE IF, SWITCH;
-- *Estrutura de Repetição*: WHILE, DO WHILE, FOR;
-- Vetores e Matrizes;
-- Metodos;
-- Formularios e Requisições;
-- Classes e Objetos;
-- Cookie e Session;
-- Encapsulamento;
-- Interface;
-- Identificação e Tratamento de Exceções;
-- Estrutura de Dados e Implementações;
-- PDO;
-- Boas Praticas e Clean Code.
+- PHP:
+  - Tipos de Dados Primitivos;
+  - *Operadores*: Aritmeticos, Relacionais, Atribuição e Lógicos;
+  - *Estrutura de Decisão*: IF, ELSE, ELSE IF, SWITCH;
+  - *Estrutura de Repetição*: WHILE, DO WHILE, FOR;
+  - Vetores e Matrizes;
+  - Metodos;
+  - Formularios e Requisições;
+  - Classes e Objetos;
+  - Cookie e Session;
+  - Encapsulamento;
+  - Interface;
+  - Identificação e Tratamento de Exceções;
+  - Estrutura de Dados e Implementações;
+  - PDO;
+  - Boas Praticas e Clean Code.
 
 #
 ### TECNOLOGIAS
