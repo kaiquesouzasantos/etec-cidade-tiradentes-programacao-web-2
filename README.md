@@ -17,7 +17,7 @@
   - Tipos de Dados Primitivos;
   - *Operadores*: Aritmeticos, Relacionais, Atribuição e Lógicos;
   - *Estrutura de Decisão*: IF, ELSE, ELSE IF, SWITCH;
-  - *Estrutura de Repetição*: WHILE, DO WHILE, FOR;
+  - *Estrutura de Repetição*: WHILE, DO WHILE, FOR, FOREACH;
   - Vetores e Matrizes;
   - Metodos;
   - Formularios e Requisições;
