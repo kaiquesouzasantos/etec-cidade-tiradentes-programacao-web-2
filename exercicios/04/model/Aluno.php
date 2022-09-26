@@ -2,15 +2,15 @@
     class Aluno{
         private $codAluno, $codTurma, $nomeTurma, $nome, $CPF, $img;
 
-        public function construct($nome, $CPF, $img, $codTurma){
+        public function construct_min($nome, $CPF, $img, $codTurma){
             $this->nome = $nome;
             $this->CPF = $CPF;
             $this->img = $img;
             $this->codTurma = $codTurma;
         }
 
-        public function increment($codAluno, $nome, $CPF, $img, $codTurma, $nomeTurma){
-            $this->construct($nome, $CPF, $img, $codTurma);
+        public function construct_full($codAluno, $nome, $CPF, $img, $codTurma, $nomeTurma){
+            $this->construct_min($nome, $CPF, $img, $codTurma);
             $this->setCodAluno($codAluno);
             $this->setNomeTurma($nomeTurma);
         }
