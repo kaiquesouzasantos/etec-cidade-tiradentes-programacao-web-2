@@ -2,11 +2,11 @@
     class Turma{
         private $codTurma, $nomeTurma;
 
-        public function construct($nomeTurma){
+        public function construct_min($nomeTurma){
             $this->nomeTurma = $nomeTurma;
         }
 
-        public function increment($codTurma, $nomeTurma){
+        public function construct_full($codTurma, $nomeTurma){
             $this->codTurma = $codTurma;
             $this->nomeTurma = $nomeTurma;
         }
