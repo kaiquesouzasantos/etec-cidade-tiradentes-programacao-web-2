@@ -8,7 +8,7 @@
 
         public static function cadastrar($nome, $cpf, $img, $codTurma){
             $aluno = new Aluno();
-            $aluno->construct($nome, $cpf, $img, $codTurma);
+            $aluno->construct_min($nome, $cpf, $img, $codTurma);
 
             $insertAluno = "INSERT INTO tbAluno(codTurma, nomeAluno, cpfAluno, imgAluno) 
                                 VALUES (:codTurma, :nome, :cpf, :img)";
@@ -31,7 +31,7 @@
 
             foreach($stmt as $aluno){
                 $objeto = new Aluno();
-                $objeto->increment(
+                $objeto->construct_full(
                     $aluno['codAluno'], $aluno['nomeAluno'], $aluno['cpfAluno'], $aluno['imgAluno'],
                     $aluno['codTurma'], $aluno['nomeTurma']
                 );
