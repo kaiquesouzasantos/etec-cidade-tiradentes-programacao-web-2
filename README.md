@@ -13,7 +13,7 @@
 #
 ### CONTEUDO ABORDADO
 
-- PHP:
+- *PHP*:
   - Tipos de Dados Primitivos;
   - *Operadores*: Aritmeticos, Relacionais, Atribuição e Lógicos;
   - *Estrutura de Decisão*: IF, ELSE, ELSE IF, SWITCH;
