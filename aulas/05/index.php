@@ -14,7 +14,20 @@
         <div class="card mb-3">
             <div class="card-body">
                 <h5 class="card-title">FORMULARIO</h5>
-                <?php escreveFormulario();?>
+                <?php 
+                    if(isset($_COOKIE['cpf_validacao'])){
+                        if($_COOKIE['cpf_validacao'] == true){
+                            echo("
+                                <p style='color: #149c68;'><strong>CPF VALIDO</strong></p>
+                                <p>Nome[".$_COOKIE['nome']."] | CPF[".$_COOKIE['cpf']."]</p>
+                            ");
+                        } 
+                    } else {
+                        echo("<p style='color: #e03e36;'><strong>CPF INVALIDO</strong></p>");
+                    }
+
+                    escreveFormulario();
+                ?>
             </div>
         </div>
     </div>
