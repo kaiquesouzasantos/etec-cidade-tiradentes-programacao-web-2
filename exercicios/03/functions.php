@@ -31,7 +31,7 @@
                     margin-bottom: 5px;
                 }
 
-                h2 {
+                h2, p {
                     text-align: center;
                 }
             </style>
@@ -44,7 +44,7 @@
             <div class="mb-3">
                 <input type="text" class="form-control" placeholder="Informe o CPF" name="txtCPF" id="txtCPF" required>
             </div>
-            <button type="submit" class="btn btn-primary" id="btnEnviar">Verificar</button>
+            <button type="submit" class="btn btn-primary col-12" id="btnEnviar">Verificar</button>
         </form>
         ');
     }
@@ -80,7 +80,6 @@
         $novo_cpf = calc_digitos_posicoes($novo_cpf, 11 );
         
         // Verificacao - Comparacao
-        if($novo_cpf === $cpf) {echo "CPF Informado é <b>VALIDO</b>. <br>";
-        } else {echo "CPF Informado é <b>INVALIDO</b>. <br>";}
+        return $novo_cpf === $cpf;
     }
 ?>
