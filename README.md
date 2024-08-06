@@ -1,4 +1,4 @@
-<h1 align=center>ETEC199-2022-PWII</h1>
+<h1 align=center>🌇 ETEC CIDADE TIRADENTES - PROGRAMAÇÃO WEB II</h1>
 
 <p align="center">
   <img src="etec.png" width="500">
@@ -41,5 +41,5 @@
 ### 🔗 CONTRIBUIÇÃO
 
 ```
-$ git clone https://github.com/kaiquesouzasantos/etec199-2022-pw2.git 
+$ git clone https://github.com/kaiquesouzasantos/etec-cidade-tiradentes-programacao-web-2.git 
 ```
